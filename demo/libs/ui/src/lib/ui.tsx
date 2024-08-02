@@ -1,10 +1,6 @@
-import styles from './ui.module.css';
-
 export function Ui() {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Ui!</h1>
-    </div>
+      <h1 className="text-blue-600 p-4">Welcome to Ui!</h1>
   );
 }
 
