@@ -15,6 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@demo/ui": ["libs/ui/src/index.ts"],
+      "@demo/ui/server": ["libs/ui/src/server.ts"],
       "dashboard/Module": ["apps/dashboard/src/remote-entry.ts"],
       "settings/Module": ["apps/settings/src/remote-entry.ts"]
     }
